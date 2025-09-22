@@ -1,0 +1,78 @@
+
+
+NET "led_bar[15]" IOSTANDARD = LVTTL;
+NET "led_bar[14]" IOSTANDARD = LVTTL;
+NET "led_bar[13]" IOSTANDARD = LVTTL;
+NET "led_bar[12]" IOSTANDARD = LVTTL;
+NET "led_bar[11]" IOSTANDARD = LVTTL;
+NET "led_bar[10]" IOSTANDARD = LVTTL;
+NET "led_bar[9]" IOSTANDARD = LVTTL;
+NET "led_bar[8]" IOSTANDARD = LVTTL;
+NET "led_bar[7]" IOSTANDARD = LVTTL;
+NET "led_bar[6]" IOSTANDARD = LVTTL;
+NET "led_bar[5]" IOSTANDARD = LVTTL;
+NET "led_bar[4]" IOSTANDARD = LVTTL;
+NET "led_bar[3]" IOSTANDARD = LVTTL;
+NET "led_bar[2]" IOSTANDARD = LVTTL;
+NET "led_bar[1]" IOSTANDARD = LVTTL;
+NET "led_bar[0]" IOSTANDARD = LVTTL;
+NET "led_bar[15]" LOC = K3;
+NET "led_bar[14]" LOC = A3;
+NET "led_bar[13]" LOC = B3;
+NET "led_bar[12]" LOC = F7;
+NET "led_bar[11]" LOC = E6;
+NET "led_bar[10]" LOC = G11;
+NET "led_bar[9]" LOC = L1;
+NET "led_bar[8]" LOC = L2;
+NET "led_bar[7]" LOC = P3;
+NET "led_bar[6]" LOC = P4;
+NET "led_bar[5]" LOC = N1;
+NET "led_bar[4]" LOC = N2;
+NET "led_bar[3]" LOC = M5;
+NET "led_bar[2]" LOC = L6;
+NET "led_bar[1]" LOC = L3;
+NET "led_bar[0]" LOC = L4;
+
+
+NET "display_segments[0]" IOSTANDARD = LVTTL;
+NET "display_segments[1]" IOSTANDARD = LVTTL;
+NET "display_segments[2]" IOSTANDARD = LVTTL;
+NET "display_segments[3]" IOSTANDARD = LVTTL;
+NET "display_segments[4]" IOSTANDARD = LVTTL;
+NET "display_segments[5]" IOSTANDARD = LVTTL;
+NET "display_segments[6]" IOSTANDARD = LVTTL;
+NET "display_segments[7]" IOSTANDARD = LVTTL;
+NET "display_segments[0]" LOC = D3;
+NET "display_segments[1]" LOC = E3;
+NET "display_segments[2]" LOC = E1;
+NET "display_segments[3]" LOC = E4;
+NET "display_segments[4]" LOC = G1;
+NET "display_segments[5]" LOC = G3;
+NET "display_segments[6]" LOC = F3;
+NET "display_segments[7]" LOC = F4;
+
+
+NET "display_select[3]" IOSTANDARD = LVTTL;
+NET "display_select[2]" IOSTANDARD = LVTTL;
+NET "display_select[1]" IOSTANDARD = LVTTL;
+NET "display_select[0]" IOSTANDARD = LVTTL;
+NET "display_select[0]" LOC = H6;
+NET "display_select[1]" LOC = H5;
+NET "display_select[2]" LOC = J7;
+NET "display_select[3]" LOC = J6;
+
+NET "clk_50mhz" IOSTANDARD = LVTTL;
+NET "clk_50mhz" LOC = R8;
+
+NET "sw[5]" IOSTANDARD = LVTTL;
+NET "sw[4]" IOSTANDARD = LVTTL;
+NET "sw[3]" IOSTANDARD = LVTTL;
+NET "sw[2]" IOSTANDARD = LVTTL;
+NET "sw[1]" IOSTANDARD = LVTTL;
+NET "sw[0]" IOSTANDARD = LVTTL;
+NET "sw[5]" LOC = V8;
+NET "sw[4]" LOC = U8;
+NET "sw[3]" LOC = H3;
+NET "sw[2]" LOC = H4;
+NET "sw[1]" LOC = H1;
+NET "sw[0]" LOC = H2;

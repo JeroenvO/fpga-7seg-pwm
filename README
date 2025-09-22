@@ -1,0 +1,10 @@
+top.v connects all modules, to the pinout defined in constraints.ucf.
+Top also contains the main logic. There is a display string with letters showing (an approximation of) the word 'congratulations.' There are three patterns displayed: a pattern of increasing brightness bars moving to the center, a pattern of small circles going up and down (dancing), and the text string with increasing speed.
+
+then there are four submodules:
+- slowclock, generates different clocks. One clock can be made faster with the input speed_up, this is used to show the animation in three different speeds.
+- display_1 is the LUT for one element of the 7-segment display.
+- display_4 time-multiplexes the four 7-segment displays and displays them one by one, fast enough to make it seem simultaneously. By displaying a display shorter, lower brightness can be achieved.
+
+
+The fpga can be programmed using Xilinx ISE.
